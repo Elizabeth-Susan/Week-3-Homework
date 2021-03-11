@@ -11,7 +11,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-  margin-top: 100px;
 }
 
 h3 {
@@ -19,9 +18,13 @@ h3 {
   opacity: 0.7;
 }
 
+.first-line {
+  margin-top: 80px;
+}
+
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -42,4 +45,31 @@ h3 {
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.primary-link {
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .project-heading {
+    text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
 }
