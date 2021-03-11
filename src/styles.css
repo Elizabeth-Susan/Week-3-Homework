@@ -55,6 +55,18 @@ h3 {
   text-decoration: none;
 }
 
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 60px;
@@ -71,5 +83,9 @@ h3 {
   .primary-link {
     display: block;
     text-align: center;
+  }
+
+  .email-link {
+    font-size: 20px;
   }
 }
